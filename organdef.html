@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Organs for Donation - LifeGift</title>
+<style>
+/* Reset & Body */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background:url('home.jpg');
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #008080;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.unsplash.com/photo-1588776814546-46e4d2d7558d?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.hero h2 {
+    font-size: 42px;
+    background: #008080;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+/* Main Section */
+section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+section h2 {
+    text-align: center;
+    color: #008080;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+/* Organ Cards */
+.cards {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+.card {
+    background: white;
+    width: 500px;
+    padding: 20px ;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    text-align: center;
+    
+}
+a.card
+{
+     text-decoration: none;
+     color: inherit;
+     display: block;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.card h3 {
+    color: #008080;
+    margin-bottom: 15px;
+}
+.card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #bbb;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+.btn-container 
+{ 
+    text-align:center;
+     margin-top:30px;
+}
+.btn
+{
+     background:#ff6b6b; 
+     color:white;
+    padding:12px 25px;
+     border:none;
+      border-radius:25px; 
+       font-size:16px;
+       cursor:pointer;
+       text-decoration:none; 
+       transition: background 0.3s ease; 
+}
+.btn:hover
+ { 
+    background:#e63946;
+ }
+footer a {
+    color: #ff6b6b;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>LifeGift</h1>
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<div class="hero">
+    <h2>Organs for Donation</h2>
+</div>
+
+<!-- Organ Information -->
+<section>
+    <h2>About Donatable Organs</h2><br><br>
+    <div class="cards">
+        
+        <a href="heart.php"class="card">
+            <h3>Heart</h3><img src="heart.jpg">
+            <p>The heart is a vital organ that pumps blood throughout the body. Heart transplants are possible for patients with severe heart failure.</p>
+        </a><br><br>
+        <a href="lungs.php"class="card">
+            <h3>Lungs</h3><img src="lungs.jpg">
+            <p>Lungs help in breathing and oxygen supply. Lung transplants can save lives of patients with chronic lung diseases.</p>
+        </a><br><br>
+        <a href="liver.php" class="card">
+            <h3>Liver</h3><img src="liver.jpg">
+            <p>The liver detoxifies blood and supports digestion. Living donors can donate a portion of their liver to someone in need.</p>
+        </a><br><br>
+        <a href="kidney.php"class="card">
+            <h3>Kidney</h3><img src="kidney.jpg">
+            <p>The kidneys filter waste from blood. A healthy person can donate one kidney to save the life of another.</p>
+        </a><br><br>
+        <a href="eye.php" class="card">
+            <h3>Eye</h3><img src="eye.jpg">
+            <p>Corneal transplants can restore vision for people with corneal blindness. Eye donation can be done after death.</p>
+        </a>
+    </div>
+</section>
+<div class="btn-container">
+  <a href="organ.php" class="btn">View Donors</a>
+</div>
+
+
+<!-- Footer -->
+<footer>
+    &copy; 2025 LifeGift | All Rights Reserved | <a href="contact.php">Contact Us</a>
+</footer>
+
+</body>
+</html>

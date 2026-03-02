@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organ Donation Management</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background:url('home.jpg');
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        header {
+            background: #008080;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://images.unsplash.com/photo-1582719478300-ef42c4af6f52?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') 
+                        no-repeat center center/cover;
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:#008080 ;
+            text-align: center;
+            padding: 0 20px;
+        }
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+        .btn {
+            background: #ff6b6b;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background: #e63946;
+        }
+
+        /* Info Section */
+        .info {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 50px 30px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            width: 200px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+           
+        }
+        .card h3 {
+            color: #008080;
+            margin-bottom: 15px;
+            text-align: center;
+            
+        }
+        .card p {
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        a.card
+        {
+            text-decoration: none;
+            color: inherit;
+            
+            
+            display: block;
+        }
+
+        /* Footer */
+        footer {
+            background: #222;
+            color: #bbb;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>💌LifeGift - Organ Donation</h1>
+        <nav>
+            <a href="homepage.html">Home</a>
+            <a href="index.html">Dashboard</a>
+            <a href="contact.php">Contact</a>
+            <a href="aboutus.html">About us</a>
+            <a href="index.html">Logout</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h2>Give the Gift of Life</h2>
+            <p>Your decision today can save lives tomorrow.</p><br><br>
+            <a href="donorform.php" class="btn">Become a Donor</a><br><br><br><br>
+             <a href="recipientform.php" class="btn">Search for Donor</a>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info">
+        <a href="organdef.html"class="card">
+            <h3>Organ</h3>
+        <p>Donatable organs include heart, liver, kidneys, lungs, and eyes.</p></a>
+        
+            <a href="blood.php" class="card">
+            <h3>Blood</h3>
+            <p>"The gift of blood is the gift of life"</p></a>
+        
+        <a href="visual.php" class="card">
+            <h3>Visualization</h3>
+            <p>To check the status and graph about the organ availability.</p></a>
+         <a href="match.php" class="card">
+            <h3>
+                Status of Matched Organ
+            </h3>
+            <p>The matches between the donor and recipient.</p></a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 LifeGift - Organ Donation Management</p>
+        <p>Designed with ❤️ to save lives</p>
+    </footer>
+
+</body>
+</html>
