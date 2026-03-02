@@ -115,29 +115,51 @@ organ-blood-donation-management
 ├── 📂 admin/
 
 │   ├── Admin.php
+
 │   ├── visual.php
+
 │   ├── bloodlist.php
+
 │
+
 ├── 📂 auth/
+
 │   ├── login.php
+
 │   ├── signup.php
+
 │
+
 ├── 📂 donor/
+
 │   ├── donor.php
+
 │   ├── donarform.php
+
 │   ├── kidney.php
+
 │   ├── liver.php
 │
 ├── 📂 recipient/
+
 │   ├── recipient.php
+
 │   ├── recipientform.php
+
 │
+
 ├── 📂 blood/
+
 │   ├── blood.php
+
 │
+
 ├── 📂 config/
+
 │   ├── db.php
+
 │
+
 └── index.php
 
 
