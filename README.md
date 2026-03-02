@@ -13,11 +13,17 @@ This system replaces manual record-keeping with a data-driven, organized, and se
 🌟 Key Features
 
 ✔️ Organ Donor Registration
+
 ✔️ Blood Donor Registration
+
 ✔️ Recipient Request Management
+
 ✔️ Secure Login & Signup System
+
 ✔️ Admin Matching & Approval System
+
 ✔️ Real-Time Data Visualization Dashboard
+
 ✔️ Organized & Structured Database
 
 
