@@ -108,9 +108,12 @@ Server	XAMPP (Apache)
 
 📁 Project Architecture
 
-organ-blood-donation-management/
+organ-blood-donation-management
+
 │
+
 ├── 📂 admin/
+
 │   ├── Admin.php
 │   ├── visual.php
 │   ├── bloodlist.php
